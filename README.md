@@ -30,7 +30,7 @@ For example, a simple pipeline event might look like this
 
 Pipeline events are submitted to the plyzen ingest endpoint (https://in.plyzen.io).
 
-To facilitate instrumentation, this repo provides a Groovy script `plyzen-event.groovy` that can be utilized - e.g. as shared library – to instrument a Jenkins pipeline like this:
+To facilitate instrumentation, this repo provides the Groovy script [plyzen-event.groovy](plyzen-event.groovy) that can be utilized - e.g. as shared library – to instrument e.g. a Jenkins pipeline like this:
 
 ```groovy
 // Simulate randomly failing stages
